@@ -13,3 +13,21 @@ export const Fakedata=()=>{
     }
     return data
 }
+
+
+
+export const SyamustomHookssyam=()=>{
+     let [number,setnumber]=useState(0)
+     
+     const inc=()=>{
+      setnumber(number+1)
+     }
+     const dec=()=>{
+      setnumber(number-1)
+     }
+
+     return{
+      number,inc,dec
+    }
+
+}

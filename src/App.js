@@ -1,5 +1,6 @@
 
 import './App.css';
+import CustomHook from './components/CustomHook';
 import Profile from './components/Profile';
 
 // in this file having custom hook and props drilling concepts
@@ -11,7 +12,8 @@ function App() {
   return (
     <div className="App">
       <h1>welcome to custome hooks...</h1>
-      <Profile name={name}></Profile>
+      {/* <Profile name={name}></Profile> */}
+      <CustomHook></CustomHook>
      
     </div>
   );
